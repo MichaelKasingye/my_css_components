@@ -1,0 +1,51 @@
+#color{
+    width: 200px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: firebrick;
+    padding: 50px;
+    color:honeydew;
+}
+#color1{
+    width: 200px;
+    height: 10px;
+    border-radius:0 0 20px 20px;
+    background-color: firebrick;
+    padding: 50px;
+    color:honeydew;
+}
+#circle{
+    width: 10px;
+    height: 10px;
+    border-radius:100rem;
+    background-color: firebrick;
+    padding: 50px;
+    color:honeydew;
+}
+
+/* shadows */
+#shadow1{
+    width: 200px;
+    height: 10px;
+    padding: 50px;
+    color:honeydew;
+    background-color: firebrick;
+    box-shadow: 10px 10px gray;
+}
+#shadow2{
+    width: 200px;
+    height: 10px;
+    padding: 50px;
+    color:honeydew;
+    background-color: firebrick;
+    box-shadow: 10px 10px 9px 3px gray;
+}
+
+#shadow3{
+    width: 200px;
+    height: 10px;
+    padding: 50px;
+    color:honeydew;
+    background-color: firebrick;
+    box-shadow: -10px 10px 5px -3px gray;
+}

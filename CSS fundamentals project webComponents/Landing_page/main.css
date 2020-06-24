@@ -1,0 +1,34 @@
+header{
+    height:40em ;
+    width: 100%;
+border: 5px solid green;
+}
+.navigation{
+    border: 5px solid red;
+    display: inline;
+    
+}
+.logo{
+    border: 5px solid green;
+    text-align: left;
+    float: left;
+}
+
+.navigation_pages{
+    border: 5px solid blue;
+    float: right;
+}
+.page_link{
+    text-decoration: none;
+    list-style:none;
+    display: inline;
+}
+
+.header_intro_links{
+    
+    text-decoration: none;
+}
+.header_intro_links a{
+    border: 5px solid blue;
+    text-decoration: none;
+}

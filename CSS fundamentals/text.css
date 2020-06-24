@@ -1,0 +1,71 @@
+#serif{
+    font-family:'Times New Roman', Times, serif;
+}
+#sanserif{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#monospace{
+    font-family:'Courier New', Courier, monospace;
+}
+#cursive{
+    font-family:florence, cursive;
+}
+#fantasy{
+    font-family:Blippo, fantasy;
+}
+
+/* text sizes */
+p.manual-size{
+    font-size: 5em;
+}
+p.small{
+    font-size: small;
+}
+p.medium{
+    font-size: medium;
+}
+p.large{
+    font-size: large;
+}
+p.x-large{
+    font-size: x-large;
+}
+
+/* CSS  STYLE PROPERTY */
+p.normal{
+    font-style: normal;
+}
+p.italic{
+    font-style: italic;
+}
+p.oblique{
+    font-style: oblique;
+}
+
+/* CSS  weight */
+#lighter{
+    font-weight: lighter;
+}
+#bold{
+    font-weight: bold;
+}
+#bolder{
+    font-weight: bolder;
+}
+#manual-size{
+    font-weight: 700;
+}
+
+/* CSS  Font varient */
+p.small-caps{
+    font-variant:small-caps;
+    color: rgb(255,1,100);
+    text-align: right;
+}
+p.normal{
+    font-variant:small-caps;
+    color: rgb(255,1,100);
+    text-align: center;
+}
+/* <p div  class="normal" >normal</p>
+<p div  class="small-caps">italic</p> */
