@@ -1,20 +1,29 @@
 header{
+    position: relative;
     height:40em ;
     width: 100%;
 border: 5px solid green;
 }
 .navigation{
+    position: relative;
     border: 5px solid red;
+    width: 100%;
     display: inline;
     
 }
 .logo{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
     border: 5px solid green;
     text-align: left;
     float: left;
 }
 
 .navigation_pages{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
     border: 5px solid blue;
     float: right;
 }
@@ -28,7 +37,19 @@ border: 5px solid green;
     
     text-decoration: none;
 }
+.header_intro_links{
+    position: relative;
+    top: 19em;
+    border: 3px solid green;
+    text-align: center;
+    
+}
+
 .header_intro_links a{
     border: 5px solid blue;
     text-decoration: none;
+    text-align: left;
+    
+
+    
 }
