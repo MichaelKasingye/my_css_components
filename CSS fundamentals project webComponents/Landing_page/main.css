@@ -4,10 +4,13 @@ header{
     width: 100%;
 border: 5px solid green;
 }
+
+.menu{
+     display:none;
+ }
+
 .navigation{
-    position: relative;
     border: 5px solid red;
-    width: 100%;
     display: inline;
     
 }
@@ -18,6 +21,7 @@ border: 5px solid green;
     border: 5px solid green;
     text-align: left;
     float: left;
+    padding: 10px;
 }
 
 .navigation_pages{
@@ -26,12 +30,15 @@ border: 5px solid green;
     top: 10px;
     border: 5px solid blue;
     float: right;
+    word-spacing: 60px;
+    padding-right: 10px;
+
 }
 .page_link{
     text-decoration: none;
     list-style:none;
     display: inline;
-}
+    }
 
 .header_intro_links{
     
@@ -49,7 +56,52 @@ border: 5px solid green;
     border: 5px solid blue;
     text-decoration: none;
     text-align: left;
-    
+    }
 
-    
-}
+    /* @ media queries */
+    @media(max-width:687px){
+        /* [class*="col-"] {
+            width: 100%;
+          } */
+          .navigation_pages{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10px;
+            /* height:100px; */
+            float: right;
+            display: block;
+            border: 3px solid black;
+          }
+          .navigation_pages_group .page_link{
+            display: none;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10px;
+            float: right;
+          }
+          .page_link{
+            text-decoration: none;
+            list-style:none;
+            
+            }
+            .menu{
+            display:block;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10px;
+            float: right;
+            border: 3px solid rebeccapurple;
+            
+            }
+            .ul li{
+                position: absolute;
+                border: 3px solid black;
+                float: right;
+            }
+            .navigation_pages:hover {
+                background-color: gray;
+            }
+            .navigation_pages:hover li{
+                 display: block;
+            }
+    }
