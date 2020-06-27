@@ -5,6 +5,9 @@ header{
 border: 5px solid green;
 }
 
+a{
+    text-decoration: none;
+}
 .menu{
      display:none;
  }
@@ -30,9 +33,9 @@ border: 5px solid green;
     top: 10px;
     border: 5px solid blue;
     float: right;
-    word-spacing: 60px;
+    word-spacing: 15px;
     padding-right: 10px;
-
+    
 }
 .page_link{
     text-decoration: none;
@@ -49,13 +52,21 @@ border: 5px solid green;
     top: 19em;
     border: 3px solid green;
     text-align: center;
+    width: 100%;
     
 }
+/* .header_content{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
-.header_intro_links a{
+.header_content a{
     border: 5px solid blue;
     text-decoration: none;
     text-align: left;
+    
     }
 
     /* @ media queries */
@@ -86,22 +97,46 @@ border: 5px solid green;
             }
             .menu{
             display:block;
+            padding: 5px;
+            letter-spacing: 2px;
             position: -webkit-sticky;
             position: sticky;
-            top: 10px;
+            top: 1px;
             float: right;
             border: 3px solid rebeccapurple;
+            text-align: right;
             
             }
-            .ul li{
-                position: absolute;
-                border: 3px solid black;
+            #navigation_pages {
+                border: 3px solid yellowgreen;
                 float: right;
+                display: flex;
+                flex-direction: column;
+                           
+            }
+            #navigation_pages_group{
+                position: relative;
+                border: 3px solid orchid;
+                float: left;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                width: 50px;
+                padding-left: 20px;
+            }
+            #navigation_pages_group a{
+                color:black;
+                letter-spacing: 3px;
+                margin-right: 13px;
+                
             }
             .navigation_pages:hover {
                 background-color: gray;
             }
-            .navigation_pages:hover li{
+            .navigation_pages:hover #navigation_pages_group li{
                  display: block;
+                 border: 3px solid orchid;
+
             }
     }
