@@ -1,0 +1,29 @@
+.grid2{
+    display: grid;
+    /* You can use any unit px, rem, %, but fr I will use fr */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+    /* repeat(3, 1fr)- repeat 3times(columns) 1fr */
+    /* - if you want a ratio of 1 to 3 columns */
+    /* grid-template-columns: repeat(3, 1fr 3fr); */
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+    /* Height */
+    /* grid-auto-rows: 100px; */
+
+    /* Dynamic height */
+    grid-auto-rows:minmax(100px auto);
+justify-items: stretch;
+align-items: stretch;
+}
+
+.grid2 > div{
+    background: #eee;
+    padding: 1rem;
+}
+.grid2 > div:nth-child(odd){
+    background: #ddd;
+}
